@@ -1,0 +1,2 @@
+<!--index.wxml-->
+  <map class="main-map" longitude="{{mapData.longitude}}" latitude="{{mapData.latitude}}" scale="15" show-location="true"/>

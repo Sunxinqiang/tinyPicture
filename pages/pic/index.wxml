@@ -1,0 +1,9 @@
+<!--index.wxml-->
+<scroll-view class="sroller" scroll-x="true" style="height:550px;white-space: nowrap;">
+  <view class="view-main" wx:for="{{array}}" wx:for-item="item">
+      <view class="title">{{item.title}}</view>
+      <view class="classname">
+         <image class="images" mode="aspectFit" src="{{item.src}}"></image>
+      </view>
+  </view>
+</scroll-view>

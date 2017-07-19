@@ -1,0 +1,17 @@
+/**index.wxss**/
+
+.view-main{
+  width:100%;
+  height: 550px;
+  display: inline-block
+}
+
+.title {
+  text-align:center;
+}
+
+.images {
+  width: 100%; 
+  height: 500px;
+  background-color: #eeeeee;
+}
